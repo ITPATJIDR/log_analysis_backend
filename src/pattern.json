@@ -1,0 +1,7 @@
+{
+  "SQL Injection": "(?i)(union\\s+all\\s+select|select\\s+.*\\s+from|select\\s+null|--|%27|\\s+or\\s+1=1|\\s+and\\s+1=1)",
+  "XSS Attack": "(?i)(<script>|javascript:|onerror=|onload=|alert\\()",
+  "Unauthorized Access": "403|401",
+  "Command Injection": "(?i)(;|\\||&&|`|\\$\\(.*\\)|\\{.*\\}|<\\s*(img|input|form|script)\\s*src\\s*=.*>)"
+}
+
